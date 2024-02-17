@@ -23,6 +23,8 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "appTitle": MessageLookupByLibrary.simpleMessage("Gif converter"),
+        "fileUploadFieldFileUpload":
+            MessageLookupByLibrary.simpleMessage("Upload file"),
         "homeScreenTitle": MessageLookupByLibrary.simpleMessage("Gif converter")
       };
 }

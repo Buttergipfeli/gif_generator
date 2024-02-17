@@ -69,6 +69,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Upload file`
+  String get fileUploadFieldFileUpload {
+    return Intl.message(
+      'Upload file',
+      name: 'fileUploadFieldFileUpload',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

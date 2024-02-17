@@ -29,6 +29,7 @@ class AppTheme {
         adaptiveContrast = AppColors.darkAdaptiveContrast;
 
   static AppTheme theme(BuildContext context) {
-    return Theme.of(context).brightness == Brightness.light ? AppTheme.light : AppTheme.dark;
+    final brightness = MediaQuery.of(context).platformBrightness;
+    return brightness == Brightness.light ? AppTheme.light : AppTheme.dark;
   }
 }

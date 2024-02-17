@@ -1,4 +1,5 @@
 {
   "appTitle": "Gif converter",
-  "homeScreenTitle": "Gif converter"
+  "homeScreenTitle": "Gif converter",
+  "fileUploadFieldFileUpload": "Upload file"
 }

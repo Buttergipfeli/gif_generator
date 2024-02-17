@@ -13,33 +13,31 @@ class FileUploadRect extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: LayoutBuilder(
-        builder: (context, constraints) {
-          final theme = AppThemeWidget.of(context);
-          final double size = constraints.maxWidth.clamp(_minSize, _maxSize);
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final theme = AppThemeWidget.of(context);
+        final double size = constraints.maxWidth.clamp(_minSize, _maxSize);
 
-          return Container(
-            width: size,
-            height: size,
-            decoration: BoxDecoration(
-              color: Colors.transparent,
-              border: Border.all(
-                color: theme.adaptiveContrast,
-                width: _borderWidth,
-              ),
-              borderRadius: BorderRadius.circular(_borderRadius),
+        return Container(
+          width: size,
+          height: size,
+          decoration: BoxDecoration(
+            color: Colors.transparent,
+            border: Border.all(
+              color: theme.adaptiveContrast,
+              width: _borderWidth,
             ),
-            child: Center(
-              child: PlusView(
-                size: size / _plusIconScale,
-                weight: _borderWidth,
-                color: theme.adaptiveContrast,
-              ),
+            borderRadius: BorderRadius.circular(_borderRadius),
+          ),
+          child: Center(
+            child: PlusView(
+              size: size / _plusIconScale,
+              weight: _borderWidth,
+              color: theme.adaptiveContrast,
             ),
-          );
-        },
-      ),
+          ),
+        );
+      },
     );
   }
 }
