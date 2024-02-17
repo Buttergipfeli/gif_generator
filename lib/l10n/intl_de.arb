@@ -2,6 +2,10 @@
   "appTitle": "Gif Konvertierer",
   "homeScreenTitle": "Gif Konvertierer",
   "fileUploadFieldFileUpload": "Datei hochladen",
+  "fileUploadRectModalSelectSource": "Wählen Sie eine Quelle",
+  "fileUploadRectModalSelectSourceImageExplorer": "Fotos",
+  "fileUploadRectModalSelectSourceFileExplorer": "Dateien",
+  "fileUploadRectModalSelectSourceCancel": "Abbrechen",
   "fileOutputGifOutput": "Gif-Datei",
   "fileOutputPlaceholderInstruction": "Laden Sie eine Datei hoch, um sie zu konvertieren."
 }

@@ -30,6 +30,14 @@ class MessageLookup extends MessageLookupByLibrary {
                 "Laden Sie eine Datei hoch, um sie zu konvertieren."),
         "fileUploadFieldFileUpload":
             MessageLookupByLibrary.simpleMessage("Datei hochladen"),
+        "fileUploadRectModalSelectSource":
+            MessageLookupByLibrary.simpleMessage("Wählen Sie eine Quelle"),
+        "fileUploadRectModalSelectSourceCancel":
+            MessageLookupByLibrary.simpleMessage("Abbrechen"),
+        "fileUploadRectModalSelectSourceFileExplorer":
+            MessageLookupByLibrary.simpleMessage("Dateien"),
+        "fileUploadRectModalSelectSourceImageExplorer":
+            MessageLookupByLibrary.simpleMessage("Fotos"),
         "homeScreenTitle":
             MessageLookupByLibrary.simpleMessage("Gif Konvertierer")
       };

@@ -80,6 +80,46 @@ class S {
     );
   }
 
+  /// `Select source`
+  String get fileUploadRectModalSelectSource {
+    return Intl.message(
+      'Select source',
+      name: 'fileUploadRectModalSelectSource',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Images`
+  String get fileUploadRectModalSelectSourceImageExplorer {
+    return Intl.message(
+      'Images',
+      name: 'fileUploadRectModalSelectSourceImageExplorer',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Files`
+  String get fileUploadRectModalSelectSourceFileExplorer {
+    return Intl.message(
+      'Files',
+      name: 'fileUploadRectModalSelectSourceFileExplorer',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cancel`
+  String get fileUploadRectModalSelectSourceCancel {
+    return Intl.message(
+      'Cancel',
+      name: 'fileUploadRectModalSelectSourceCancel',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Gif output`
   String get fileOutputGifOutput {
     return Intl.message(

@@ -8,8 +8,15 @@ class FileUploadField extends StatelessWidget {
   static const double _spacing = 4.0;
 
   final double size;
+  final VoidCallback onPickImage;
+  final VoidCallback onPickFile;
 
-  const FileUploadField({super.key, required this.size});
+  const FileUploadField({
+    super.key,
+    required this.size,
+    required this.onPickImage,
+    required this.onPickFile,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +27,11 @@ class FileUploadField extends StatelessWidget {
       children: [
         GifGenText(localizations.fileUploadFieldFileUpload),
         const SizedBox(height: _spacing),
-        FileUploadRect(size: size)
+        FileUploadRect(
+          size: size,
+          onPickImage: onPickImage,
+          onPickFile: onPickFile,
+        ),
       ],
     );
   }

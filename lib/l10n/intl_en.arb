@@ -2,6 +2,10 @@
   "appTitle": "Gif converter",
   "homeScreenTitle": "Gif converter",
   "fileUploadFieldFileUpload": "Upload file",
+  "fileUploadRectModalSelectSource": "Select source",
+  "fileUploadRectModalSelectSourceImageExplorer": "Images",
+  "fileUploadRectModalSelectSourceFileExplorer": "Files",
+  "fileUploadRectModalSelectSourceCancel": "Cancel",
   "fileOutputGifOutput": "Gif output",
   "fileOutputPlaceholderInstruction": "Upload a file to see the output."
 }
