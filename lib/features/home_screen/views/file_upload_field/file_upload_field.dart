@@ -5,8 +5,6 @@ import 'package:gif_generator/core/views/platform/custom_patform_button.dart';
 import 'package:gif_generator/features/home_screen/views/file_upload_field/file_upload_rect.dart';
 import 'package:gif_generator/generated/l10n.dart';
 
-import '../../../../resources/colors/app_theme_widget.dart';
-
 class FileUploadField extends StatelessWidget {
   static const double _minSize = 200.0;
   static const double _maxSize = 250.0;
@@ -19,7 +17,6 @@ class FileUploadField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final localizations = S.of(context);
-    final theme = AppThemeWidget.of(context);
 
     return LayoutBuilder(builder: (context, constraints) {
       final double size = constraints.maxWidth.clamp(_minSize, _maxSize);
