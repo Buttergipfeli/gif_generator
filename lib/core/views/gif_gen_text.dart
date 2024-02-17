@@ -3,8 +3,13 @@ import 'package:gif_generator/resources/colors/app_theme_widget.dart';
 
 class GifGenText extends StatelessWidget {
   final String text;
+  final TextAlign? textAlign;
 
-  const GifGenText(this.text, {super.key});
+  const GifGenText(
+    this.text, {
+    super.key,
+    this.textAlign,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -14,6 +19,7 @@ class GifGenText extends StatelessWidget {
       style: TextStyle(
         color: theme.adaptiveContrast,
       ),
+      textAlign: textAlign,
     );
   }
 }

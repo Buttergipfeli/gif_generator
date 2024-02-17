@@ -79,6 +79,26 @@ class S {
       args: [],
     );
   }
+
+  /// `Gif output`
+  String get fileOutputGifOutput {
+    return Intl.message(
+      'Gif output',
+      name: 'fileOutputGifOutput',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Upload a file to see the output.`
+  String get fileOutputPlaceholderInstruction {
+    return Intl.message(
+      'Upload a file to see the output.',
+      name: 'fileOutputPlaceholderInstruction',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

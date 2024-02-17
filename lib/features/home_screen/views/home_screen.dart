@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
-import 'package:gif_generator/features/home_screen/views/file_upload_field/file_upload_field.dart';
+import 'package:gif_generator/features/home_screen/views/home_screen_content.dart';
 import 'package:gif_generator/generated/l10n.dart';
 import 'package:gif_generator/resources/colors/app_theme_widget.dart';
 
@@ -22,11 +22,7 @@ class HomeScreen extends StatelessWidget {
       body: const SafeArea(
         child: Padding(
           padding: EdgeInsets.all(_padding),
-          child: Column(
-            children: [
-              FileUploadField(),
-            ],
-          ),
+          child: HomeScreenContent(),
         ),
       ),
     );

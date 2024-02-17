@@ -1,5 +1,7 @@
 {
   "appTitle": "Gif Konvertierer",
   "homeScreenTitle": "Gif Konvertierer",
-  "fileUploadFieldFileUpload": "Datei hochladen"
+  "fileUploadFieldFileUpload": "Datei hochladen",
+  "fileOutputGifOutput": "Gif-Datei",
+  "fileOutputPlaceholderInstruction": "Laden Sie eine Datei hoch, um sie zu konvertieren."
 }
