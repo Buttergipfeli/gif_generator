@@ -8,6 +8,7 @@ class AppColors {
   static const Color lightDarkBlueAccent = Color(0xFF3D9C8E);
   static const Color lightLimeGreen = Color(0xFF56CE20);
   static const Color lightAdaptiveContrast = Color(0xFF000000);
+  static const Color lightBackgroundColor = Color(0xFFF7F7F7);
 
   // Dark mode
   static const Color darkLightGreen = Color(0xFF5EB1A8);
@@ -16,4 +17,5 @@ class AppColors {
   static const Color darkDarkBlueAccent = Color(0xFF357B95);
   static const Color darkLimeGreen = Color(0xFF3F9A4D);
   static const Color darkAdaptiveContrast = Color(0xFFFFFFFF);
+  static const Color darkBackgroundColor = Color(0xFF2B2B2B);
 }

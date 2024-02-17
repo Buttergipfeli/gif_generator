@@ -8,6 +8,7 @@ class AppTheme {
   final Color darkBlueAccent;
   final Color limeGreen;
   final Color adaptiveContrast;
+  final Color backgroundColor;
 
   static AppTheme light = AppTheme._light();
   static AppTheme dark = AppTheme._dark();
@@ -18,7 +19,8 @@ class AppTheme {
         darkGreenAccent = AppColors.lightDarkGreenAccent,
         darkBlueAccent = AppColors.lightDarkBlueAccent,
         limeGreen = AppColors.lightLimeGreen,
-        adaptiveContrast = AppColors.lightAdaptiveContrast;
+        adaptiveContrast = AppColors.lightAdaptiveContrast,
+        backgroundColor = AppColors.lightBackgroundColor;
 
   AppTheme._dark()
       : lightGreen = AppColors.darkLightGreen,
@@ -26,7 +28,8 @@ class AppTheme {
         darkGreenAccent = AppColors.darkDarkGreenAccent,
         darkBlueAccent = AppColors.darkDarkBlueAccent,
         limeGreen = AppColors.darkLimeGreen,
-        adaptiveContrast = AppColors.darkAdaptiveContrast;
+        adaptiveContrast = AppColors.darkAdaptiveContrast,
+        backgroundColor = AppColors.darkBackgroundColor;
 
   static AppTheme theme(BuildContext context) {
     final brightness = MediaQuery.of(context).platformBrightness;

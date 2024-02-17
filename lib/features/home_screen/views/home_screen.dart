@@ -14,6 +14,7 @@ class HomeScreen extends StatelessWidget {
     final appTheme = AppThemeWidget.of(context);
     final localizations = S.of(context);
     return PlatformScaffold(
+      backgroundColor: appTheme.backgroundColor,
       appBar: PlatformAppBar(
         title: Text(localizations.homeScreenTitle),
         backgroundColor: appTheme.limeGreen,
